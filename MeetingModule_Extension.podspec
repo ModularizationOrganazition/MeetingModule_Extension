@@ -1,9 +1,9 @@
 Pod::Spec.new do |s|
 
   s.name         = "MeetingModule_Extension"
-  s.version      = "1.0.0"
+  s.version      = "1.0.2"
   s.summary      = "MeetingModule_Extension."
-  s.swift_versions = "4.0"
+  s.swift_versions = "4.2"
   s.description  = <<-DESC
                     this is MeetingModule_Extension
                    DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 
   s.source       = { :git => "https://github.com/ModularizationOrganazition/MeetingModule_Extension.git", :tag => s.version }
 
-  s.source_files  = "MeetingModule_Extension/MeetingModule_Extension/*"#{}"MeetingModule_Extension/MeetingModule_Extension/*.{h,m,swift}"
+  s.source_files  = "MeetingModule_Extension/**/*.{h,m,swift}"
 
   s.requires_arc = true
 

@@ -1,1 +1,1 @@
-pod repo push PrivateModelPods MeetingModule_Extension.podspec --verbose --allow-warnings --use-libraries --sources='https://github.com/ModularizationOrganazition/PrivateModelPods.git,https://github.com/CocoaPods/Specs.git'
+pod repo push PrivateModelPods MeetingModule_Extension.podspec --verbose --allow-warnings --use-libraries --skip-import-validation --sources='https://github.com/ModularizationOrganazition/PrivateModelPods.git,https://github.com/CocoaPods/Specs.git'
