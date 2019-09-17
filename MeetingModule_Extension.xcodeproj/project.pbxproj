@@ -14,7 +14,6 @@
 		A52C3077233079D300B3658E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52C3075233079D300B3658E /* LaunchScreen.storyboard */; };
 		A52C3082233079D300B3658E /* MeetingModule_ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52C3081233079D300B3658E /* MeetingModule_ExtensionTests.swift */; };
 		A52C308D233079D300B3658E /* MeetingModule_ExtensionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52C308C233079D300B3658E /* MeetingModule_ExtensionUITests.swift */; };
-		A52C309E23307ABC00B3658E /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A52C309D23307ABC00B3658E /* OCViewController.m */; };
 		A52C30A023307ADD00B3658E /* MeetingModule_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52C309F23307ADD00B3658E /* MeetingModule_Extension.swift */; };
 		E97C3BE382424BA5E0DDC599 /* libPods-MeetingModule_Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE4C8FBC227DB7313C7055D /* libPods-MeetingModule_Extension.a */; };
 /* End PBXBuildFile section */
@@ -53,8 +52,6 @@
 		A52C308C233079D300B3658E /* MeetingModule_ExtensionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingModule_ExtensionUITests.swift; sourceTree = "<group>"; };
 		A52C308E233079D300B3658E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A52C309B23307ABB00B3658E /* MeetingModule_Extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MeetingModule_Extension-Bridging-Header.h"; sourceTree = "<group>"; };
-		A52C309C23307ABC00B3658E /* OCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
-		A52C309D23307ABC00B3658E /* OCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
 		A52C309F23307ADD00B3658E /* MeetingModule_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingModule_Extension.swift; sourceTree = "<group>"; };
 		AE12B560008453AE012D88D5 /* Pods-MeetingModule_Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingModule_Extension.debug.xcconfig"; path = "Target Support Files/Pods-MeetingModule_Extension/Pods-MeetingModule_Extension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -150,8 +147,6 @@
 		A52C309A23307AA800B3658E /* MeetingModule_Extension */ = {
 			isa = PBXGroup;
 			children = (
-				A52C309C23307ABC00B3658E /* OCViewController.h */,
-				A52C309D23307ABC00B3658E /* OCViewController.m */,
 				A52C309B23307ABB00B3658E /* MeetingModule_Extension-Bridging-Header.h */,
 				A52C309F23307ADD00B3658E /* MeetingModule_Extension.swift */,
 			);
@@ -327,7 +322,6 @@
 			files = (
 				A52C306F233079D200B3658E /* ViewController.swift in Sources */,
 				A52C306D233079D200B3658E /* AppDelegate.swift in Sources */,
-				A52C309E23307ABC00B3658E /* OCViewController.m in Sources */,
 				A52C30A023307ADD00B3658E /* MeetingModule_Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -516,7 +510,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MeetingModule_Extension/MeetingModule_Extension/MeetingModule_Extension-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -537,7 +531,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.medtion.www.MeetingModule-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "MeetingModule_Extension/MeetingModule_Extension/MeetingModule_Extension-Bridging-Header.h";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
