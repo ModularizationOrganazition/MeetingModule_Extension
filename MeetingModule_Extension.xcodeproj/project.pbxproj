@@ -14,6 +14,9 @@
 		A52C3077233079D300B3658E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A52C3075233079D300B3658E /* LaunchScreen.storyboard */; };
 		A52C3082233079D300B3658E /* MeetingModule_ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52C3081233079D300B3658E /* MeetingModule_ExtensionTests.swift */; };
 		A52C308D233079D300B3658E /* MeetingModule_ExtensionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52C308C233079D300B3658E /* MeetingModule_ExtensionUITests.swift */; };
+		A52C309E23307ABC00B3658E /* OCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A52C309D23307ABC00B3658E /* OCViewController.m */; };
+		A52C30A023307ADD00B3658E /* MeetingModule_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52C309F23307ADD00B3658E /* MeetingModule_Extension.swift */; };
+		E97C3BE382424BA5E0DDC599 /* libPods-MeetingModule_Extension.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AE4C8FBC227DB7313C7055D /* libPods-MeetingModule_Extension.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6AE4C8FBC227DB7313C7055D /* libPods-MeetingModule_Extension.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MeetingModule_Extension.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CBE03012F0D8ED04869A953 /* Pods-MeetingModule_Extension.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingModule_Extension.release.xcconfig"; path = "Target Support Files/Pods-MeetingModule_Extension/Pods-MeetingModule_Extension.release.xcconfig"; sourceTree = "<group>"; };
 		A52C3069233079D200B3658E /* MeetingModule_Extension.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MeetingModule_Extension.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52C306C233079D200B3658E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A52C306E233079D200B3658E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,11 @@
 		A52C3088233079D300B3658E /* MeetingModule_ExtensionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MeetingModule_ExtensionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A52C308C233079D300B3658E /* MeetingModule_ExtensionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingModule_ExtensionUITests.swift; sourceTree = "<group>"; };
 		A52C308E233079D300B3658E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A52C309B23307ABB00B3658E /* MeetingModule_Extension-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MeetingModule_Extension-Bridging-Header.h"; sourceTree = "<group>"; };
+		A52C309C23307ABC00B3658E /* OCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OCViewController.h; sourceTree = "<group>"; };
+		A52C309D23307ABC00B3658E /* OCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OCViewController.m; sourceTree = "<group>"; };
+		A52C309F23307ADD00B3658E /* MeetingModule_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeetingModule_Extension.swift; sourceTree = "<group>"; };
+		AE12B560008453AE012D88D5 /* Pods-MeetingModule_Extension.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MeetingModule_Extension.debug.xcconfig"; path = "Target Support Files/Pods-MeetingModule_Extension/Pods-MeetingModule_Extension.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E97C3BE382424BA5E0DDC599 /* libPods-MeetingModule_Extension.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -74,6 +85,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		044BAF4573BC5406A904C0FA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AE4C8FBC227DB7313C7055D /* libPods-MeetingModule_Extension.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A52C3060233079D200B3658E = {
 			isa = PBXGroup;
 			children = (
@@ -81,6 +100,8 @@
 				A52C3080233079D300B3658E /* MeetingModule_ExtensionTests */,
 				A52C308B233079D300B3658E /* MeetingModule_ExtensionUITests */,
 				A52C306A233079D200B3658E /* Products */,
+				ED9B05E9EE9F7EA5471DD430 /* Pods */,
+				044BAF4573BC5406A904C0FA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -97,6 +118,7 @@
 		A52C306B233079D200B3658E /* MeetingModule_Extension */ = {
 			isa = PBXGroup;
 			children = (
+				A52C309A23307AA800B3658E /* MeetingModule_Extension */,
 				A52C306C233079D200B3658E /* AppDelegate.swift */,
 				A52C306E233079D200B3658E /* ViewController.swift */,
 				A52C3070233079D200B3658E /* Main.storyboard */,
@@ -125,6 +147,26 @@
 			path = MeetingModule_ExtensionUITests;
 			sourceTree = "<group>";
 		};
+		A52C309A23307AA800B3658E /* MeetingModule_Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A52C309C23307ABC00B3658E /* OCViewController.h */,
+				A52C309D23307ABC00B3658E /* OCViewController.m */,
+				A52C309B23307ABB00B3658E /* MeetingModule_Extension-Bridging-Header.h */,
+				A52C309F23307ADD00B3658E /* MeetingModule_Extension.swift */,
+			);
+			path = MeetingModule_Extension;
+			sourceTree = "<group>";
+		};
+		ED9B05E9EE9F7EA5471DD430 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE12B560008453AE012D88D5 /* Pods-MeetingModule_Extension.debug.xcconfig */,
+				9CBE03012F0D8ED04869A953 /* Pods-MeetingModule_Extension.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -132,6 +174,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A52C3091233079D300B3658E /* Build configuration list for PBXNativeTarget "MeetingModule_Extension" */;
 			buildPhases = (
+				3185E94871D461877637BE83 /* [CP] Check Pods Manifest.lock */,
 				A52C3065233079D200B3658E /* Sources */,
 				A52C3066233079D200B3658E /* Frameworks */,
 				A52C3067233079D200B3658E /* Resources */,
@@ -193,6 +236,7 @@
 				TargetAttributes = {
 					A52C3068233079D200B3658E = {
 						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1020;
 					};
 					A52C307C233079D300B3658E = {
 						CreatedOnToolsVersion = 10.2.1;
@@ -251,6 +295,31 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3185E94871D461877637BE83 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MeetingModule_Extension-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A52C3065233079D200B3658E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -258,6 +327,8 @@
 			files = (
 				A52C306F233079D200B3658E /* ViewController.swift in Sources */,
 				A52C306D233079D200B3658E /* AppDelegate.swift in Sources */,
+				A52C309E23307ABC00B3658E /* OCViewController.m in Sources */,
+				A52C30A023307ADD00B3658E /* MeetingModule_Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,8 +501,10 @@
 		};
 		A52C3092233079D300B3658E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE12B560008453AE012D88D5 /* Pods-MeetingModule_Extension.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9K63MB4KS;
 				INFOPLIST_FILE = MeetingModule_Extension/Info.plist;
@@ -441,6 +514,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.medtion.www.MeetingModule-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MeetingModule_Extension/MeetingModule_Extension/MeetingModule_Extension-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,8 +523,10 @@
 		};
 		A52C3093233079D300B3658E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9CBE03012F0D8ED04869A953 /* Pods-MeetingModule_Extension.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = M9K63MB4KS;
 				INFOPLIST_FILE = MeetingModule_Extension/Info.plist;
@@ -459,6 +536,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "com.medtion.www.MeetingModule-Extension";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MeetingModule_Extension/MeetingModule_Extension/MeetingModule_Extension-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
