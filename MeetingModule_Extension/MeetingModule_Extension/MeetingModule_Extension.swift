@@ -7,9 +7,9 @@
 //
 
 import Foundation
-//import CTMediator
+import CTMediator
+
 extension CTMediator{
-    
     func meetingVC() -> UIViewController? {
         if let vc = self.performTarget("MeetingViewController", action: "viewController", params: [:], shouldCacheTarget: false) as? UIViewController{
             return vc
