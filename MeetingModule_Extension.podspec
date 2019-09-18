@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
 
   s.name         = "MeetingModule_Extension"
-  s.version      = "1.0.3"
+  s.version      = "1.0.4"
   s.summary      = "MeetingModule_Extension."
   s.swift_versions = "4.2"
   s.description  = <<-DESC
@@ -21,8 +21,10 @@ Pod::Spec.new do |s|
   s.source_files  = "MeetingModule_Extension/**/*.{h,m,swift}"
 
   s.requires_arc = true
-  s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
+  # s.pod_target_xcconfig = { 'OTHER_LDFLAGS' => '-ObjC' }
 
-  # s.dependency "BLNetworking"
+  s.pod_target_xcconfig = { 'VALID_ARCHS[sdk=iphonesimulator*]' => '' }
+
+  # s.dependency "CTMediator"
 
 end

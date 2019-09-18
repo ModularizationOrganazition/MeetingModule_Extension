@@ -6,4 +6,5 @@ source 'https://github.com/CocoaPods/Specs.git'
 
 target 'MeetingModule_Extension' do
 pod 'CTMediator'
+pod 'MeetingModule', :source => 'https://github.com/ModularizationOrganazition/PrivateModelPods.git'
 end
